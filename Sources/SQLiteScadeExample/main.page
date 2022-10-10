@@ -1,0 +1,86 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="main">
+    <minArea width="414" height="736"/>
+    <location/>
+    <backgroundColor Red="248" Green="248" Blue="248"/>
+    <children xsi:type="widgets:RowView" name="rowView">
+      <children xsi:type="widgets:Button" text="Read" name="read_btn" horizontalAlignment="CENTER">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="67" Green="147" Blue="242"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE">
+          <minSize width="127" height="37"/>
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location y="32"/>
+        <size width="127" height="37"/>
+        <contentSize width="127" height="37"/>
+      </children>
+      <children xsi:type="widgets:Button" text="Write" name="write_btn" horizontalAlignment="CENTER">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="14" Green="177" Blue="243"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" column="1" verticalAlignment="MIDDLE">
+          <minSize width="111" height="42"/>
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="127" y="30"/>
+        <size width="111" height="42"/>
+        <contentSize width="111" height="42"/>
+      </children>
+      <children xsi:type="widgets:Button" text="Update" name="update_btn" horizontalAlignment="CENTER">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="25" Green="177" Blue="255"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" column="2" verticalAlignment="MIDDLE">
+          <minSize width="86" height="23"/>
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="238" y="39"/>
+        <size width="86" height="23"/>
+        <contentSize width="86" height="23"/>
+      </children>
+      <children xsi:type="widgets:Button" text="Delete" name="del_btn" horizontalAlignment="CENTER">
+        <font fontFamily="ArialMT" size="17">
+          <color Red="71" Green="152" Blue="251"/>
+        </font>
+        <layoutData xsi:type="layout:GridData" column="3" verticalAlignment="MIDDLE" grabHorizontalSpace="true">
+          <minSize width="66" height="19"/>
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+        <location x="324" y="41"/>
+        <size width="66" height="19"/>
+        <contentSize width="66" height="19"/>
+      </children>
+      <layout xsi:type="layout:GridLayout" columns="4" marginTop="30" marginBottom="40"/>
+      <maxArea width="-1" height="-1"/>
+      <location x="-7" y="530"/>
+      <minArea/>
+      <size width="414" height="109"/>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+    </children>
+    <children xsi:type="widgets:Label" text="label" name="label" multiline="true">
+      <font fontFamily="ArialMT" size="17">
+        <color Red="70" Green="70" Blue="70"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="24" y="244"/>
+      <size width="366" height="199"/>
+      <contentSize width="36" height="19"/>
+    </children>
+    <children xsi:type="widgets:Label" text="SQLite SCADE" name="title" horizontalAlignment="CENTER">
+      <font fontFamily="ArialMT" size="26">
+        <color Red="70" Green="70" Blue="70"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="28" y="40"/>
+      <size width="376" height="30"/>
+      <contentSize width="177" height="30"/>
+    </children>
+    <layout xsi:type="layout:AutoLayout"/>
+    <maxArea width="414" height="736"/>
+    <size width="414" height="736"/>
+  </widgets:Page>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>
