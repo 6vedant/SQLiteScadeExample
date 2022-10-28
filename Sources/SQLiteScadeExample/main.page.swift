@@ -18,7 +18,7 @@ class MainPageAdapter: SCDLatticePageAdapter {
 		super.load(path)
 		
 		self.read_btn.onClick{ _ in 
-			print("hello")
+			print("Reading DB")
 		}
 		
 		
